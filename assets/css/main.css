@@ -1,0 +1,104 @@
+header#banner {
+  background-color: #6ed3cf;
+  height: 100px;
+  text-align:center;
+  color: white;
+}
+
+h1{
+  margin: 0px;
+  line-height: 100px;
+}
+
+body{
+  margin: 0px
+}
+
+li{
+  padding: 15px;
+  display: inline;
+}
+
+nav {
+  text-align:center;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+footer#primary-footer{
+  background-color: grey;
+  height: 50px;
+  text-align:center;
+  color: white;
+}
+
+small{
+  margin: 0px;
+  line-height: 50px;
+}
+
+div.bio img {
+  width: 100%;
+  max-width: 300px;
+}
+
+/* GRID LAYOUTS */
+
+/* Landing Page Grid  */
+div#grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 10px;
+}
+
+/* Resume Page Grid */
+
+div#grid-resume {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+div#one{
+  grid-column: 3;
+  grid-row: 1;
+}
+
+div#two{
+  grid-column: 4;
+  grid-row: 1;
+}
+
+div#three{
+  grid-column: 3;
+  grid-row: 2;
+}
+
+div#four{
+  grid-column: 4;
+  grid-row: 2;
+}
+
+div#five{
+  grid-column: 3;
+  grid-row: 3;
+}
+
+div#six{
+  grid-column: 4;
+  grid-row: 3;
+}
+
+div#seven{
+  grid-column: 3;
+  grid-row: 4;
+}
+
+div#eight{
+  grid-column: 4;
+  grid-row: 4;
+}
